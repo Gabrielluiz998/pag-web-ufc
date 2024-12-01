@@ -4,22 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/telaInicial.css">
-    <title>UFC</title>
-</head>
-<body>
-    <div class="botoes">
-        <button onclick="abrirTelaEventos()">
-            Eventos
-        </button>
-        <button>
-            Sobre 
-        </button>
-        <button>
+    <link rel="stylesheet" href="style.css">
 
-        </button>
-    </div>
+    <!-- Fontes----------------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans&display=swap" rel="stylesheet">
+
+
+    <title>UFC</title>
+
+</head>
+<body style="display: flex; 
+             background-color: rgb(35, 35, 35); 
+             flex-direction: column; 
+             align-items: center;
+             background-image: url(../IMAGENS/Untitled\ design.png);
+             background-repeat: repeat;
+             background-size: cover;
+             background-position: center;
+             ">
+        <div class="retangle"></div>
+
+        <section class="hidden">
+            <div class="cabecalho">
+                <img class="logo_UFC" src="../IMAGENS/logo_ufc_latest_inverted-removebg-preview.png" srcset="" height="270px">
+            </div>
+        </section>
+    
+        <section class="hidden">
+            <div class="botoes">
+                <label for="botao1">
+                    <button class="botao1" onclick="abrirTelaEventos()">
+                        Eventos
+                    </button>
+                </label>
+        
+                <label for="botao2">
+                    <button class="botao2">
+                        Produtos
+                    </button>
+                </label>
+        
+                <label for="botao3">
+                    <button class="botao3">
+                        Sobre nós
+                    </button>
+                </label>
+            </div>
+        </section>
+
+        <section class="hidden">
+
+            <div class="logos">
+                <div class="hidden">
+                    <p class="subTitulo">
+                        Acompanhe a gente nas redes sociais 👇 
+                    </p>
+                </div>
+
+
+                <div class="hidden">
+                    <div class="links">
+                        <div class="instagram">
+                            <a href="https://www.remove.bg/pt-br/upload">
+                                <img src="../IMAGENS/instagram_logo.png" alt="" srcset="" height="50px">
+                            </a>
+                        </div>
+                        
+                        <div class="whatsapp">
+                            <a href="https://www.remove.bg/pt-br/upload">
+                                <img src="../IMAGENS/whatsapp_logo.png" alt="" srcset=""  height="50px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden">
+                    <img src="../IMAGENS/logo_ufc_latest_inverted-removebg-preview.png" alt="" srcset="" height="170px">
+                </div>
+            </div>
+            
+        </section>
 </body>
 
- <script src="/SCRIPTS/Navegações.js"></script>
+ <script src="/SCRIPTS/TelaInicial.js"></script>
 </html>
