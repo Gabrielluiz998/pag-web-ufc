@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: blue;*/
+    background-color: rgb(25, 25, 25);
+}
+
+#container {
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: 80vh;
+    border: 5px solid rgb(24, 99, 99);
+}
+
+.cards {
+    border: 2px solid yellowgreen;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 10vh;
+    border: 2px solid rebeccapurple;
+}
+
+.botaoVoltar {
+    border: none;
+    background: transparent;
+    margin: 3%;
+    cursor: pointer;
+}
