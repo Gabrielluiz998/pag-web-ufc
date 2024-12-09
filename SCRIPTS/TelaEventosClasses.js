@@ -1,5 +1,6 @@
 class Eventos {
-    constructor (nome, data) {
+    constructor (img, nome, data) {
+        this.img = img
         this.name = nome
         this.data = data
     }
