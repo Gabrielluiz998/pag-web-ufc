@@ -2,7 +2,7 @@ const container = document.getElementById('container');
 
 
 var evento1 = new Eventos("../IMAGENS/acampamento1.jpg","Acampamento UFC", "10/01/2025");
-var evento2 = new Eventos("3 combate UFC", "27/10/2025");
+var evento2 = new Eventos("../IMAGENS/acampamento1.jpg","3 combate UFC", "27/10/2026");
 
 var listaDeEventos = [evento1];
 
